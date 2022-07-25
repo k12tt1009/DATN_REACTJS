@@ -1,0 +1,11 @@
+.news-child {
+    cursor: pointer;
+    .news-name {
+        font-size: 15px;
+        margin: 10px 10px;
+
+        &:hover {
+            color: rgb(3, 3, 224);
+        }
+    }
+}

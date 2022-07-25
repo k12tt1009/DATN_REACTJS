@@ -1,0 +1,11 @@
+.showroom-child {
+    cursor: pointer;
+
+    .showroom-name {
+        padding: 10px 0;
+
+        &:hover {
+            color: blue;
+        }
+    }
+}

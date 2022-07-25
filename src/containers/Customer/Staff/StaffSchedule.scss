@@ -1,0 +1,78 @@
+.staff-schedule-container {
+    height: 100%;
+
+    .all-schedule {
+        select {
+            height: 30px;
+            width: 140px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 1px solid;
+            font-weight: 600;
+            cursor: pointer;
+            outline: none;
+            color: rgb(48, 3, 185);
+            border-color: rgb(48, 3, 185);
+        }
+    }
+
+    .all-available-time{
+        .text-calendar {
+            margin: 10px 0;
+            color: #333;
+
+            span {
+                text-transform: uppercase;
+                margin-left: 8px;
+            }
+        }
+
+        .time-content {
+
+            .time-content-btns {
+                display: flex;
+                gap: 15px;
+                flex-wrap: wrap;
+
+                .err-login {
+                    font-weight: 600;
+                }
+
+            button {
+                padding: 8px 10px;
+                border: none;
+                outline: none;
+                background-color: rgb(48, 3, 185);
+                color: #ddd;
+                min-width: 120px;
+                border-radius: 3px;
+                font-weight: 550;
+
+                &:hover {
+                background-color: orange;
+                color: #333;
+                }    
+                
+            }
+
+            .no-schedule {
+                font-style: italic;
+                font-weight: 500;
+                font-size: 15px;
+                text-align: center;
+                margin-top: 35px;
+                color: rgb(48, 3, 185);
+            }
+        }
+
+            .book-free {
+                margin-top: 25px;
+
+                i {
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}

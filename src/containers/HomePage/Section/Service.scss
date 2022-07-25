@@ -1,0 +1,11 @@
+.service-child {
+    cursor: pointer;
+    .service-name {
+        margin: 10px 10px;
+        font-size: 15px;
+
+        &:hover {
+            color: rgb(3, 3, 224);
+        }
+    }
+}

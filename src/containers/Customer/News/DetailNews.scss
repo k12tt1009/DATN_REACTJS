@@ -1,0 +1,43 @@
+.news-detail-container {
+  
+    margin: 0 180px;
+
+    .name-news {
+        border-top: 1px solid #ccc;
+        font-size     : 24px;
+        font-weight   : 700;
+        text-transform: uppercase;
+        text-align    : center;
+        padding-top: 20px;
+        color: #0303b6;
+    }
+
+    .description-news {
+        font-size  : 20px;
+        font-weight: 700;
+        font-style : italic;
+        margin     : 15px 0;
+    }
+
+    .content-news {
+        border-bottom: 1px solid #ccc;
+       
+        font-size: 18px;
+        text-align: justify;
+        img {
+            width: 1180px;
+        }
+
+        h1 {
+            font-size: 19px;
+        }
+
+        h2 {
+            font-size: 19px;
+        }
+
+        h3 {
+            font-size: 19px;
+        }
+    }
+}

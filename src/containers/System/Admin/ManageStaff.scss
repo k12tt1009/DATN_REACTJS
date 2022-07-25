@@ -1,0 +1,57 @@
+.manage-staff-container {
+    padding: 20px 15px;
+
+    .manage-doctor-title {
+        text-align    : center;
+        margin        : 20px;
+        font-size     : 20px;
+        text-transform: uppercase;
+        font-weight   : bold;
+        color         : rgb(2, 2, 145);
+    }
+
+    .save-content-staff {
+        margin-top   : 20px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+        outline      : none;
+        border       : none;
+        padding      : 8px;
+        background   : orange;
+        cursor       : pointer;
+
+        &:hover {
+            background: rgb(196, 128, 3);
+        }
+    }
+
+    .create-content-staff {
+        margin-top   : 20px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+        outline      : none;
+        border       : none;
+        padding      : 8px;
+        background   : blue;
+        cursor       : pointer;
+        color        : white;
+
+        &:hover {
+            background: rgb(3, 3, 173);
+        }
+    }
+
+    .more-infor {
+        display       : flex;
+        gap           : 15px;
+        padding-bottom: 15px;
+
+        .content-left {
+            width: 40%;
+        }
+
+        .content-right {
+            width: 60%;
+        }
+    }
+}

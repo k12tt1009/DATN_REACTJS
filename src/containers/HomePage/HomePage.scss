@@ -1,0 +1,228 @@
+//reset slick slider css
+
+.slick-prev {
+    left: -22px !important; 
+    z-index: 900;
+    width: 44px !important;
+    height: 44px !important;
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+    &:hover {
+        background: #e9e7e7 !important;
+    }
+}
+
+.slick-prev:before {
+    font-family: Font Awesome !important;
+    color: rgba(0, 0, 255, 0.815) !important;
+    // content: "\f053" !important;
+}
+
+.slick-next {
+    right: -22px !important; 
+    z-index: 900;
+    width: 44px !important;
+    height: 44px !important;
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+    &:hover {
+        background: #e9e7e7 !important;
+    }
+}
+
+.slick-next:before {
+    font-family: Font Awesome !important;
+    color: rgba(0, 0, 255, 0.815) !important;
+}
+
+.slick-disabled {
+    display: none !important;
+}
+
+.section-share{
+    &.section-specialty {
+    background: #f5f5f5;
+    margin-top: -105px;
+    }
+    
+    &.section-outstanding-staff {
+        background: #f5f5f5;
+    }
+
+    &.section-about {
+        height: 500px !important;
+        background: #f5f5f5;
+    }
+
+    .section-body {
+
+        .section-customize {
+            .bg-image {
+                width: 280px;
+                height: 200px;
+                background-position: center center;
+                background-repeat: no-repeat !important;
+                background-size: cover;
+                background-color: #eee;
+             
+                &.section-specialty {
+                    // background-image: url('../../assets/services/baoduong.jpg');
+                }
+
+                &.section-service-workshop {
+                    // background-image: url('../../assets/workshop/ankhanh.png');
+                }
+
+                &.section-outstanding-staff {
+                    // background-image: url('../../assets/staff/staff-icon.jpg');
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 50%;
+                }
+
+                &.section-news {
+                    // background-image: url('../../assets/news/xe-huynhai.jpg');
+                }
+                    
+            }
+        }
+    }
+}
+
+
+.section-share {
+    height: 360px;
+
+    .section-container {
+        margin: 0 180px;
+        display: flex;
+        flex-direction: column;
+
+        .section-header {
+            height: 60px;
+            margin-bottom: 20px;
+            padding-top: 20px;
+
+            .title-section {
+                font-size: 23px;
+                font-weight: 700;
+                color: rgb(3, 3, 182);
+            }
+
+            .btn-section {
+                margin-top: 270px;
+                height: 35px;
+                padding: 5px 15px;
+                border: none;
+                outline: none;
+                display: block;
+                background: #ebebeb;
+                color: black;
+                cursor: pointer;
+
+                &:hover {
+                    color: #fff;
+                    background: #2d06bbde; 
+                }
+            }
+
+            .btn-section-news {
+                margin-top: 341px;
+                height: 35px;
+                padding: 5px 15px;
+                border: none;
+                outline: none;
+                display: block;
+                background: #ebebeb;
+                color: black;
+                cursor: pointer;
+
+                &:hover {
+                    color: #fff;
+                    background: #2d06bbde; 
+                }
+            }
+
+            .btn-section-staff {
+                margin-top: 290px;
+                height: 35px;
+                padding: 5px 15px;
+                border: none;
+                outline: none;
+                display: block;
+                background: #ebebeb;
+                color: black;
+                cursor: pointer;
+
+                &:hover {
+                    color: #fff;
+                    background: #2d06bbde; 
+                }
+            }
+        }
+
+    }
+
+}
+
+.section-outstanding-staff {
+    height: 381px;
+    .outer-bg {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .section-customize {
+        padding: 5px;
+        cursor: pointer;
+
+        .customize-border {
+            border: 1px solid rgb(52, 5, 223);
+            padding: 20px;
+        }
+    }
+}
+
+.section-news {
+    height: 430px;
+}
+
+.home-footer {
+    text-align: center;
+    height: 50px;
+    margin-top: 25px;
+    
+}
+
+.section-about {
+    padding: 0 180px;
+    .section-about-header {
+        padding: 20px 10px;
+        font-size: 20px;
+        font-weight: 700;
+        color: #0303b6;
+    }
+
+    .section-about-content {
+        display: flex;
+        gap: 15px;
+        width: 100%;
+
+        .content-left {
+            width: 60%;
+        }
+
+        .content-right {
+            width: 40%;
+            p {
+                text-align: justify;
+                font-style: italic;
+                padding-top: 20px;
+                font-size: 17px;
+            }
+        }
+    }
+}

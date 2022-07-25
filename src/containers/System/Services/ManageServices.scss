@@ -1,0 +1,31 @@
+.manage-service-container {
+    padding: 0 15px;
+
+    .ms-title {
+        text-align: center;
+        margin: 20px 0;
+        text-transform: uppercase;
+        color: #0071ba;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+
+    .add-new-service {
+        .btn-save-service {
+            margin-top   : 20px;
+            margin-bottom: 30px;
+            border-radius: 5px;
+            outline      : none;
+            border       : none;
+            padding      : 10px 20px;
+            background   : blue;
+            cursor       : pointer;
+            color        : white;
+
+            &:hover {
+                background: rgb(3, 3, 173);
+            }
+        }
+    }
+}

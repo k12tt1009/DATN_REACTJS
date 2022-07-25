@@ -1,0 +1,37 @@
+{
+    "homeheader": {
+        "welcome": "Xin chào, "
+    },
+    "menu": {
+        "system": {
+            "header": "Hệ thống",
+            "system-administrator": {
+                "header": "Quản trị hệ thống",
+                "user-manage": "Quản lý người sử dụng",
+                "user-redux": "Quản lý user redux",
+                "register-package-group-or-account": "Đăng ký gói dịch vụ cho nhóm/tài khoản"
+            },
+            "system-parameter": {
+                "header": "Tham số hệ thống"
+            }
+        },
+        "admin": {
+            "manage-user": "Người dùng",
+            "manage-staff": "Quản lý chuyên viên",
+            "manage-admin": "Quản lý admin",
+            "manage-customer": "Quản lý khách hàng",
+            "crud": "CRUD user",
+            "crud-redux": "CRUD redux",
+            "showroom": "Xưởng dịch vụ",
+            "manage-showroom": "Quản lý xưởng dịch vụ",
+            "specialty": "Gói dịch vụ",
+            "manage-specialty": "Quản lý gói dịch vụ",
+            "news": "Tin tức",
+            "manage-news": "Quản lý tin tức"
+        },
+        "staff": {
+            "manage-schedule": "Quản lý kế hoạch làm việc",
+            "manage-booking-customer": "Quản lý lịch hẹn"
+        }
+    }
+}
